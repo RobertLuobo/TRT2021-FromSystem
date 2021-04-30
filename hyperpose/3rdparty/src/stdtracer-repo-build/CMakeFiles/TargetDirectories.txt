@@ -1,0 +1,8 @@
+/hyperpose/3rdparty/src/stdtracer-repo-build/CMakeFiles/install/strip.dir
+/hyperpose/3rdparty/src/stdtracer-repo-build/CMakeFiles/install/local.dir
+/hyperpose/3rdparty/src/stdtracer-repo-build/CMakeFiles/package_source.dir
+/hyperpose/3rdparty/src/stdtracer-repo-build/CMakeFiles/package.dir
+/hyperpose/3rdparty/src/stdtracer-repo-build/CMakeFiles/install.dir
+/hyperpose/3rdparty/src/stdtracer-repo-build/CMakeFiles/edit_cache.dir
+/hyperpose/3rdparty/src/stdtracer-repo-build/CMakeFiles/rebuild_cache.dir
+/hyperpose/3rdparty/src/stdtracer-repo-build/CMakeFiles/list_install_components.dir

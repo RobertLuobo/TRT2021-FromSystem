@@ -1,0 +1,15 @@
+Cloning into 'stdtracer-repo'...
+fatal: unable to access 'https://github.com/stdml/stdtracer.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
+Cloning into 'stdtracer-repo'...
+Note: checking out 'v0.2.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 3426d52 -DHAVE_UNISTD IF(UNIX) fixes(#18)

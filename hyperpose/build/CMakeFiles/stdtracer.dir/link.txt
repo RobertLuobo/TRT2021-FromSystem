@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstdtracer.a  CMakeFiles/stdtracer.dir/src/trace.cpp.o
+/usr/bin/ranlib libstdtracer.a

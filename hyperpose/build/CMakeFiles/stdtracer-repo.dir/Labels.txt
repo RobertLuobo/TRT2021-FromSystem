@@ -1,0 +1,13 @@
+# Target labels
+ stdtracer-repo
+# Source files and their labels
+/hyperpose/build/CMakeFiles/stdtracer-repo
+/hyperpose/build/CMakeFiles/stdtracer-repo.rule
+/hyperpose/build/CMakeFiles/stdtracer-repo-complete.rule
+/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-install.rule
+/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-mkdir.rule
+/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-download.rule
+/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-update.rule
+/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-patch.rule
+/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-configure.rule
+/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-build.rule

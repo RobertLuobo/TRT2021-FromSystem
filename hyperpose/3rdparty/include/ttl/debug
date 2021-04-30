@@ -1,0 +1,9 @@
+// # -*- mode: c++ -*-
+#pragma once
+
+#include <ttl/bits/std_shape_debug.hpp>
+
+namespace ttl
+{
+using internal::to_string;
+}

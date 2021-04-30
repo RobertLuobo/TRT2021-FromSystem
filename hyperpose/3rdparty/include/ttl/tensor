@@ -1,0 +1,48 @@
+// # -*- mode: c++ -*-
+#pragma once
+#include <ttl/bits/std_device.hpp>
+#include <ttl/bits/std_host_allocator.hpp>
+#include <ttl/bits/std_tensor.hpp>
+#include <ttl/bits/std_tensor_reshape.hpp>
+#include <ttl/shape>
+
+namespace ttl
+{
+template <typename R, rank_t r, typename D = internal::host_memory>
+using tensor =
+    internal::basic_tensor<R, internal::basic_shape<r>, D, internal::owner>;
+
+template <typename R, rank_t r, typename D = internal::host_memory>
+using tensor_ref =
+    internal::basic_tensor<R, internal::basic_shape<r>, D, internal::readwrite>;
+
+template <typename R, rank_t r, typename D = internal::host_memory>
+using tensor_view =
+    internal::basic_tensor<R, internal::basic_shape<r>, D, internal::readonly>;
+}  // namespace ttl
+
+namespace ttl
+{
+using internal::chunk;
+using internal::flatten;
+using internal::ref;
+using internal::view;
+}  // namespace ttl
+
+namespace ttl
+{
+// Don't be confused with std::vector
+template <typename R, typename D = internal::host_memory>
+using vector = tensor<R, 1, D>;
+template <typename R, typename D = internal::host_memory>
+using vector_ref = tensor_ref<R, 1, D>;
+template <typename R, typename D = internal::host_memory>
+using vector_view = tensor_view<R, 1, D>;
+
+template <typename R, typename D = internal::host_memory>
+using matrix = tensor<R, 2, D>;
+template <typename R, typename D = internal::host_memory>
+using matrix_ref = tensor_ref<R, 2, D>;
+template <typename R, typename D = internal::host_memory>
+using matrix_view = tensor_view<R, 2, D>;
+}  // namespace ttl

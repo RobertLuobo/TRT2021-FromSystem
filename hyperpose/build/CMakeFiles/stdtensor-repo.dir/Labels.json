@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/hyperpose/build/CMakeFiles/stdtensor-repo"
+		},
+		{
+			"file" : "/hyperpose/build/CMakeFiles/stdtensor-repo.rule"
+		},
+		{
+			"file" : "/hyperpose/build/CMakeFiles/stdtensor-repo-complete.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-install.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-mkdir.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-download.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-update.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-patch.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-configure.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"stdtensor-repo"
+		],
+		"name" : "stdtensor-repo"
+	}
+}

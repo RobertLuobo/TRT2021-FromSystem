@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/hyperpose/build/CMakeFiles/stdtracer-repo"
+		},
+		{
+			"file" : "/hyperpose/build/CMakeFiles/stdtracer-repo.rule"
+		},
+		{
+			"file" : "/hyperpose/build/CMakeFiles/stdtracer-repo-complete.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-install.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-mkdir.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-download.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-update.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-patch.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-configure.rule"
+		},
+		{
+			"file" : "/hyperpose/3rdparty/src/stdtracer-repo-stamp/stdtracer-repo-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"stdtracer-repo"
+		],
+		"name" : "stdtracer-repo"
+	}
+}

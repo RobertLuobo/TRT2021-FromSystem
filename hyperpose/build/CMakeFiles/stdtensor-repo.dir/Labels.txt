@@ -1,0 +1,13 @@
+# Target labels
+ stdtensor-repo
+# Source files and their labels
+/hyperpose/build/CMakeFiles/stdtensor-repo
+/hyperpose/build/CMakeFiles/stdtensor-repo.rule
+/hyperpose/build/CMakeFiles/stdtensor-repo-complete.rule
+/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-install.rule
+/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-mkdir.rule
+/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-download.rule
+/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-update.rule
+/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-patch.rule
+/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-configure.rule
+/hyperpose/3rdparty/src/stdtensor-repo-stamp/stdtensor-repo-build.rule
