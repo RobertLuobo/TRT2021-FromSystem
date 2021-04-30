@@ -94,6 +94,14 @@ onnx-simplifier
 由于不会写dockerfile，加上一些库也没记全，我直接commit一个镜像，到时候ldockers load进去跑，可能更加直观，就是文件太大了
 百度云盘还在上传中，10G。稍后上传完毕就更新。
 
+链接：https://pan.baidu.com/s/1WfJmIde8v4-44oD0ZiKa4w 
+提取码：2ql5 
+复制这段内容后打开百度网盘手机App，操作更方便哦--来自百度网盘超级会员V1的分享
+
+问题：这里我使用docker commit和docker save保存了docker镜像，但是docker load进去环境的时候，运行nvidia-smi找不到cuda环境，我在其他环境实验了docker commit和docker save后docker load进去后，是可以正常运行./example.int8_coco_HW-368x656_paf_batch 和 nvidia-smi，这里不知道是什么原因。链接是原本库的运行docker的参考[[Preview\] \README.md - tensorlayer/hyperpose - GitHub1s](https://github1s.com/tensorlayer/hyperpose)
+
+
+
 ```
 我docker save了docker镜像，需要加载进去
 REPOSITORY                  TAG                      IMAGE ID       CREATED             SIZE
@@ -123,16 +131,16 @@ docker run -it --name hyperpose trt_hackathon_hyperpose.tar
 
 ./example.int8_coco_HW-368x656_paf_video  //运行int8 openpose 视频 检测人体姿态估计
 
-./example.int8_thin_HW-368x432_paf_batch  //运行int8 openpose backbone是tinyvgg 图片 检测人体姿态估计
+./example.int8_thin_HW-368x432_paf_batch  //运行int8 openpose backbone是mobilenet-thin 图片 检测人体姿态估计
 
-./example.int8_thin_HW-368x432_paf_batch  //运行int8 openpose backbone是tinyvgg 视频 检测人体姿态估计
+./example.int8_thin_HW-368x432_paf_batch  //运行int8 openpose backbone是mobilenet-thin 视频 检测人体姿态估计
 
 ./example.paf_fp32_coco_HW-368x656_batch  //运行fp32 openpose 图片 检测人体姿态估计
 
 ./example.paf_fp32_coco_HW-368x656_video  //运行fp32 openpose 视频 检测人体姿态估计
 
-./example.paf_fp32_thin_HW-368x432_batch  //运行fp32 openpose backbone是tinyvgg 图片 检测人体姿态估计
+./example.paf_fp32_thin_HW-368x432_batch  //运行fp32 openpose backbone是mobilenet-thin 图片 检测人体姿态估计
 
-./example.paf_fp32_thin_HW-368x432_video  //运行fp32 openpose backbone是tinyvgg 视频 检测人体姿态估计
+./example.paf_fp32_thin_HW-368x432_video  //运行fp32 openpose backbone是mobilenet-thin 视频 检测人体姿态估计
 ```
 
