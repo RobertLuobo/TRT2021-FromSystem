@@ -144,3 +144,7 @@ docker run -it --name hyperpose trt_hackathon_hyperpose.tar
 ./example.paf_fp32_thin_HW-368x432_video  //运行fp32 openpose backbone是mobilenet-thin 视频 检测人体姿态估计
 ```
 
+#### 参考链接
+
+https://github.com/tensorlayer/hyperpose
+
