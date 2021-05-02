@@ -38,20 +38,20 @@ onnx-simplifier
     |-- convert_trt_quant.py #执行onnx文件转int8并且序列化
     |-- log #记录模型转换的日志
     |-- models_save #转完int8后系列化的文件
-    |   |-- hyperpose_coco_368x656_int8.trt
-    |   |-- hyperpose_lopps_int8.trt
-    |   |-- hyperpose_ppn_384x384_int8.trt
-    |   |-- hyperpose_thin_368x432_int8.trt
+       |-- hyperpose_coco_368x656_int8.trt
+       |-- hyperpose_lopps_int8.trt
+       |-- hyperpose_ppn_384x384_int8.trt
+       |-- hyperpose_thin_368x432_int8.trt
     |-- util_trt.py
 |-- data 
-|   |-- media # 测试数据
-|   |-- models #onnx文件所在地
-    |-- openpose-coco-V2-HW=368x656.onnx
-    |-- openpose-coco-V2-HW=368x656.onnx.trt
-    |-- openpose-thin-V2-HW=368x432.onnx
-    |-- openpose-thin-V2-HW=368x432.onnx.trt
-    |-- ppn-resnet50-V2-HW=384x384.onnx
-    |-- ppn-resnet50-V2-HW=384x384.onnx.trt
+    |-- media # 测试数据
+    |-- models #onnx文件所在地
+        |-- openpose-coco-V2-HW=368x656.onnx
+        |-- openpose-coco-V2-HW=368x656.onnx.trt
+        |-- openpose-thin-V2-HW=368x432.onnx
+        |-- openpose-thin-V2-HW=368x432.onnx.trt
+        |-- ppn-resnet50-V2-HW=384x384.onnx
+        |-- ppn-resnet50-V2-HW=384x384.onnx.trt
 |-- docs
 |-- include
 |-- scripts
