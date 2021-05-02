@@ -1,9 +1,6 @@
 # onnx模型转换为 int8 tensorrt引擎
 
 
-
-cd yolov5_tensorrt_int8_tools
-
 vim convert_trt_quant.py 修改如下参数
 
 BATCH_SIZE 模型量化一次输入多少张图片
