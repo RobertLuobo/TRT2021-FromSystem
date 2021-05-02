@@ -43,9 +43,13 @@ def get_engine(max_batch_size=1, onnx_file_path="", engine_file_path="",\
             builder.max_workspace_size = 1 << 30 # 1GB
             builder.fp16_mode = fp16_mode
             if int8_mode:
-                builder.int8_mode = int8_mode
+                config.max_workspace_size = common.GiB(1)
+                config.set_flag(trt.BuilderFlag.INT8)                
+                config.int8_calibrator = Calibrator(calibration_stream, calibration_table_path) # 设定的东西要放到config里面 - 没有更改运行时候的文件，这里只是给自己做一下提醒
+                
+                #builder.int8_mode = int8_mode
                 assert calibration_stream, 'Error: a calibration_stream should be provided for int8 mode'
-                builder.int8_calibrator  = Calibrator(calibration_stream, calibration_table_path)
+                #builder.int8_calibrator  = Calibrator(calibration_stream, calibration_table_path)
                 print('Int8 mode enabled')
             #engine = builder.build_cuda_engine(network)
             #engine = builder.build_engine(network,config)
